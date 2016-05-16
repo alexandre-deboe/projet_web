@@ -1,0 +1,36 @@
+body {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.overlay a:hover {
+    color: #eaeaea;
+    text-decoration:none;
+}
+
+.closebtn {
+    position: absolute;
+    top: 50px;
+    right: 5%;
+    color: #cfcfcf;
+    font-size: 300%;
+}

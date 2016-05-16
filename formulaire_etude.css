@@ -1,0 +1,117 @@
+body{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+.ajout1 {
+    background-image: url("plus.png");
+    background-color: transparent;
+    background-size: 25px;
+    margin-left: 42px;
+    margin-top: -50px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.ajout2 {
+    background-image: url("plus.png");
+    background-color: transparent;
+    background-size: 25px;
+    margin-left: 10px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+}
+
+
+.supprime {
+    background-image: url("delete.png");
+    background-color: transparent;
+    background-size: 25px;
+    margin-left: 10px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+}
+
+
+
+.rajout{
+    display: block;
+    white-space:nowrap;
+}
+
+.ui-autocomplete .ui-menu-item
+{ font-size:x-small;
+}
+
+
+label {
+    display: block;
+    width: 150px;
+    margin-left: 0px;
+
+
+
+}
+
+
+
+form#myform label { display:inline-block; width:120px; }
+form#myform input { display:inline-block; white-space:nowrap;}
+
+.row{
+    margin-top: -700px;
+}
+
+.colonne{
+    margin-left: 20px;
+}
+
+
+
+
+.ligne{
+    display: block;
+    white-space:nowrap;
+
+
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.overlay a:hover {
+    color: #ffffff;
+    text-decoration:none;
+}
+
+.closebtn {
+    float: right;
+}
+
+
+

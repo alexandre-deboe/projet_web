@@ -1,0 +1,60 @@
+body {
+  min-height: 1000px;
+  padding-top: 90px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+div.btn-group-justified {
+	padding-left: 20%;
+	padding-right: 20%;
+	position: center;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.overlay a:hover {
+    color: #eaeaea;
+    text-decoration:none;
+}
+
+.closebtn {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: #cfcfcf;
+    font-size: 300%;
+}
+
+.overlay-content4 {
+    position: relative;
+    top: 8%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.closebtn4 {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: #cfcfcf;
+    font-size: 300%;
+}

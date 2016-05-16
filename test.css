@@ -1,0 +1,97 @@
+.valid {
+    background-image: url("submitbutton.png");
+    background-size: 100px;
+    border: none;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+
+.ajout1 {
+    background-image: url("plus.png");
+    background-color: transparent;
+    background-size: 25px;
+    margin-left: 35px;
+    margin-top: -50px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.ajout2 {
+    background-image: url("plus.png");
+    background-color: transparent;
+    background-size: 25px;
+    margin-left: 10px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+}
+
+
+.supprime {
+    background-image: url("delete.png");
+    background-color: transparent;
+    background-size: 25px;
+    margin-left: 10px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+}
+
+
+
+.rajout{
+    display: block;
+    white-space:nowrap;
+}
+
+.ui-autocomplete .ui-menu-item
+{ font-size:x-small;
+}
+
+
+label {
+    display: block;
+    width: 150px;
+    margin-left: 20px;
+
+    float: left;
+    max-width: none;
+    top: -30px;
+}
+
+
+
+form#myform label { display:inline-block; width:120px; }
+form#myform input { display:inline-block; white-space:nowrap;}
+
+.row{
+    margin-top: 0px;
+    max-height: 0px;
+}
+.col-md-4{
+    max-height: 0px;
+}
+.colonne{
+    margin-top: -300px;
+}
+p{
+     display: block;
+     white-space:nowrap;
+
+ }
+
+.ligne{
+    display: block;
+    white-space:nowrap;
+    max-width: none;
+}

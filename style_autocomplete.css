@@ -1,0 +1,45 @@
+.arrondi {
+  background-image: url("submitbutton.png");
+  background-size: 75px;	
+  border: none;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+}
+
+.ajout1 {
+  background-image: url("plus.png");
+ background-color: transparent;
+  background-size: 25px;
+  margin-left: 35px;	
+  border: none;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.ajout2 {
+  background-image: url("plus.png");
+ background-color: transparent;
+  background-size: 25px;
+  margin-left: 10px;	
+  border: none;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+
+.supprime {
+  background-image: url("delete.png");
+ background-color: transparent;
+  background-size: 25px;
+  margin-left: 5px;	
+  border: none;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.ui-autocomplete .ui-menu-item
+{ font-size:x-small;}

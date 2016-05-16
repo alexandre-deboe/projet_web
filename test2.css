@@ -1,0 +1,28 @@
+body {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+tr{
+    cursor:pointer;
+
+}
+
+.table-hover{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    width: 70%;
+    text-align: center;
+}
+
+.pagination{
+    margin:auto;
+    width:100%;
+    text-align:center;
+}
+.entreprise{
+    margin:auto;
+    width:100%;
+    text-align:center;
+}
