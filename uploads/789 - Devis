@@ -1,0 +1,13 @@
+body {
+  min-height: 1000px;
+  padding-top: 90px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+div.btn-group-justified {
+	padding-left: 20%;
+	padding-right: 20%;
+	position: center;
+}
